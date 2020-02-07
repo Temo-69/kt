@@ -1,5 +1,5 @@
 PImage img;
-int pixls=5;
+int pixls=13;
 color average;
 int x,y,yinc;
 void setup()
@@ -14,7 +14,6 @@ void draw()
 {
   background(255,0);
   loadPixels();
-  pixls=int(map(mouseY,0,height,5,100));
   for(int i=0;i<pixls;i++)
   { 
     for(int j=0;j<pixls;j++)
